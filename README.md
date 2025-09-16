@@ -26,23 +26,23 @@ planner_upazila_level.csv → daily estimates by upazila
 district_totals_next_N_days.csv → totals per district for the next 3 days
 
 ## How It Works
-Inputs:
+### Inputs:
 
 Population & vulnerability tags (flood-prone, river proximity)
 
 Rainfall forecast (24h / 3-day / 7-day totals)
 
-Risk Score:
+#### Risk Score:
 
 Adds points if 3-day or 7-day rain exceeds thresholds
 
 Adds points for flood-prone areas or river-nearby upazilas
 
-Affected People Estimate:
+#### Affected People Estimate:
 
 Maps risk → % of population affected (with uncertainty bands P50 / P90)
 
-Conversion to Relief Quantities:
+#### Conversion to Relief Quantities:
 
 Water: 15 L per person per day
 
@@ -50,7 +50,7 @@ Food: 1 ration-day per person per day
 
 Shelter: 1 kit per 4 people
 
-Outputs:
+### Outputs:
 
 Clear CSVs + plots for decision makers
 
