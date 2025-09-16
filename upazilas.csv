@@ -1,0 +1,7 @@
+upazila_id,upazila_name,district,population,flood_prone_flag,river_proximity_category
+101,Sirajganj Sadar,Sirajganj,550000,1,near
+102,Kazipur,Sirajganj,275000,1,near
+103,Belkuchi,Sirajganj,220000,1,medium
+201,Sunamganj Sadar,Sunamganj,400000,1,near
+202,Derai,Sunamganj,230000,1,medium
+301,Chilmari,Kurigram,200000,1,near
